@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Server Instance {{ instance }}</title>
+</head>
+<body>
+    <h1>Instance: {{ instance }}</h1>
+    <p>Database Name: {{ db_name }}</p>
+    <p>CPU Usage: {{ data[1] }}%</p>
+    <p>Memory Usage: {{ data[2] }}MB</p>
+    <p>IP: {{ data[3] }}</p>
+    <p>Ping Latency: {{ data[4] }}ms</p>
+    <p>Timestamp: {{ data[5] }}</p>
+</body>
+</html>
