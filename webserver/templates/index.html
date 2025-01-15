@@ -2,6 +2,11 @@
 <html>
 <head>
     <title>Web Server Instance {{ instance }}</title>
+    <script>
+        setTimeout(function() {
+            location.reload();
+        }, 60000);
+    </script>
 </head>
 <body>
     <h1>Instance: {{ instance }}</h1>
